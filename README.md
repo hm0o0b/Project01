@@ -6,8 +6,40 @@ mediapipe를 활용한 인생네컷 ( 4 photos using MediaPipe )
 이 프로젝트는 다양한 사진 촬영 기능과 이미지를 합성하는 기능을 제공합니다. 주요 기능으로는 **세로 자르기**, **프레임 추가**, **윙크 인식**, **그레이스케일 타이머** 등이 있으며, 여러 장의 사진을 합쳐 하나의 합성된 이미지를 생성할 수 있습니다.
 
 ## 프로젝트 구성
-4Cut_photo/ │ ├── output/ # 결과물 저장 폴더 (사진, 합성된 이미지 등) │ ├── captured_image1.jpg │ ├── captured_image2.jpg │ ├── ... │ └── composite_image.jpg # 합성된 이미지 │ ├── resources/ # 프레임 이미지, 아이콘 등 │ ├── frame1.png │ ├── frame2.png │ └── ... │ ├── add_frame.py # 프레임 추가 기능 ├── cut_vertical.py # 세로 자르기 기능 ├── detect_wink.py # 윙크 인식 기능 ├── show_gray_time.py # 그레이스케일로 타이머 기능 ├── main.py # 실행 파일 (main.py만 실행) │ └── README.md # 프로젝트 설명 파일
-
+📦4Cut_photo
+ ┣ 📂output
+ ┣ 📂resources
+ ┃ ┣ 📜basic.png
+ ┃ ┣ 📜frame1.jpg
+ ┃ ┣ 📜frame2.jpg
+ ┃ ┣ 📜frame3.jpg
+ ┃ ┣ 📜frame4.jpg
+ ┃ ┣ 📜frame4_1.png
+ ┃ ┣ 📜frame4_2.jpg
+ ┃ ┣ 📜heart.png
+ ┃ ┣ 📜love.png
+ ┃ ┣ 📜lucky.png
+ ┃ ┗ 📜random.png
+ ┣ 📂__pycache__
+ ┃ ┣ 📜add_frame.cpython-39.pyc
+ ┃ ┣ 📜add_heart_sticker.cpython-39.pyc
+ ┃ ┣ 📜cut_veritical.cpython-39.pyc
+ ┃ ┣ 📜detect_point_gesture.cpython-39.pyc
+ ┃ ┣ 📜detect_v_gesture.cpython-39.pyc
+ ┃ ┣ 📜detect_wink.cpython-39.pyc
+ ┃ ┣ 📜select_frame.cpython-39.pyc
+ ┃ ┣ 📜show_gray_time.cpython-39.pyc
+ ┃ ┗ 📜show_selection_menu.cpython-39.pyc
+ ┣ 📜add_frame.py
+ ┣ 📜add_heart_sticker.py
+ ┣ 📜cut_veritical.py
+ ┣ 📜detect_point_gesture.py
+ ┣ 📜detect_v_gesture.py
+ ┣ 📜detect_wink.py
+ ┣ 📜main.py
+ ┣ 📜select_frame.py
+ ┣ 📜show_gray_time.py
+ ┗ 📜show_selection_menu.py
 
 
 ## 기능
